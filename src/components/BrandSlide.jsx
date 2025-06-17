@@ -13,7 +13,7 @@ const BrandSlide = ({ name, tagline, background, logo, link }) => {
           className="w-[120px] drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]"
         />
         <div className="text-center md:text-left">
-          <h1 className="text-3xl font-bold mb-2 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+          <h1 className="text-4xl md:text-5xl font-bold mb-2 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
             {name}
           </h1>
           <p className="italic opacity-90 mb-4 text-[1.05rem] drop-shadow-[0_1px_1px_rgba(0,0,0,0.7)]">
