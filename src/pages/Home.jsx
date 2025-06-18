@@ -34,17 +34,19 @@ const Home = () => {
     <div>
       {/* Hero Section */}
       <section
-        className="hero min-h-screen -mt-20 pt-20 bg-cover bg-center bg-no-repeat flex items-center justify-center text-center px-6"
+        className="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center text-center px-6"
         style={{ backgroundImage: `url('/img/hero-car.jpg')` }}
       >
         <div className="text-white">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
             The Ultimate Supercar Experience
           </h1>
-          <p className="text-lg mb-6">Where Speed Meets Art</p>
+          <p className="text-lg mb-6 drop-shadow-[0_1px_1px_rgba(0,0,0,0.7)]">
+            Where Speed Meets Art
+          </p>
           <a
             href="#brands"
-            className="inline-block bg-[#e50914] hover:bg-[#ff2b3c] text-white font-bold px-6 py-3 rounded-lg transition"
+            className="inline-block bg-[#e50914] hover:bg-[#ff2b3c] text-white font-bold px-6 py-3 rounded-lg transition drop-shadow-md hover:scale-105"
           >
             Découvrir les Marques
           </a>
