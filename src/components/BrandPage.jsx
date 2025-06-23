@@ -27,7 +27,16 @@ const BrandPage = ({
           <p className="italic text-lg text-gray-300 mt-2">{tagline}</p>
           <a
             href="#content"
-            className="inline-block mt-6 bg-[#e50914] hover:bg-[#ff2b3c] text-white font-bold px-6 py-3 rounded-lg transition"
+            className="inline-block mt-6 text-white font-bold px-6 py-3 rounded-lg transition"
+            style={{
+              backgroundColor: palette.accent || "#e50914",
+            }}
+            onMouseOver={(e) =>
+              (e.currentTarget.style.backgroundColor = palette.buttonHover || "#ff2b3c")
+            }
+            onMouseOut={(e) =>
+              (e.currentTarget.style.backgroundColor = palette.accent || "#e50914")
+            }
           >
             Découvrir la Marque
           </a>

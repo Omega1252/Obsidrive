@@ -79,7 +79,7 @@ const brandsData = {
   },
   {
     name: "Daytona SP3",
-    image: "/img/cars/ferrari/Daytona SP3.jpg",
+    image: "/img/cars/ferrari/Daytona-SP3.jpg",
     link: "/marques/ferrari/Daytona-SP3.html",
   },
   {
@@ -94,7 +94,7 @@ const brandsData = {
   },
   {
     name: "458 Speciale",
-    image: "/img/cars/ferrari/458 Speciale.jpg",
+    image: "/img/cars/ferrari/458-Speciale.jpg",
     link: "/marques/ferrari/458-Speciale.html",
   },
   {
@@ -104,12 +104,12 @@ const brandsData = {
   },
   {
     name: "360 Moderna",
-    image: "/img/cars/ferrari/360 Moderna.jpg",
+    image: "/img/cars/ferrari/360-Moderna.jpg", //g mis des tirets parceque cela ne marchait pas
     link: "/marques/ferrari/360-Moderna.html",
   },
   {
     name: "599 GTO",
-    image: "/img/cars/ferrari/599 GTO .jpg",
+    image: "/img/cars/ferrari/599-GTO.jpg",
     link: "/marques/ferrari/599-GTO.html",
   },
   {
