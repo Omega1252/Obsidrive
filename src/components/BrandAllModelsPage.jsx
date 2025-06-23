@@ -1,11 +1,8 @@
-const BrandAllModelsPage = ({
-  brand,
-  models,
-  palette,
-}) => {
+import { Link } from "react-router-dom";
+
+const BrandAllModelsPage = ({ brand, models, palette }) => {
   return (
     <div style={{ backgroundColor: palette.background, color: "#fff" }}>
-      {/* Fullscreen Model Sections */}
       {models.map((model, index) => (
         <section
           key={index}
@@ -14,8 +11,8 @@ const BrandAllModelsPage = ({
         >
           <div className="text-white z-10">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">{model.name}</h1>
-            <a
-              href={model.link}
+            <Link
+              to={`/modele/${model.name.toLowerCase().replace(/\s+/g, "-")}`}
               className="inline-block px-6 py-3 rounded-md font-semibold text-white"
               style={{
                 backgroundColor: palette.button || palette.accent || "#e50914",
@@ -29,7 +26,7 @@ const BrandAllModelsPage = ({
               }}
             >
               Découvrir le modèle
-            </a>
+            </Link>
           </div>
         </section>
       ))}
