@@ -1,7 +1,6 @@
 // modelsData.jsx
 
 const modelsData = {
-  // ferrari
   laferrari: {
     brand: "Ferrari",
     name: "LaFerrari",
@@ -29,7 +28,7 @@ const modelsData = {
     sf90stradale: {
     brand: "Ferrari",
     name: "SF90 Stradale",
-    image: "/img/cars/ferrari/ferrari-sf90.jpg",
+    image: "/img/cars/ferrari/Ferrari.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "La SF90 Stradale est une supercar hybride rechargeable qui repousse les limites de la technologie Ferrari. Dotée de quatre roues motrices et de trois moteurs électriques, elle symbolise le futur de la performance chez Ferrari.",
@@ -40,7 +39,7 @@ const modelsData = {
       moteur: "V8 biturbo 4.0L + 3 moteurs électriques",
       transmission: "Boîte double embrayage à 8 rapports",
       poids: "1 570",
-      production: "En cours (limité selon version)",
+      production: "799",
       annee: "2019",
       prix: "500 000",
     },
@@ -64,7 +63,7 @@ const modelsData = {
       moteur: "V12 atmosphérique 6.5L",
       transmission: "Boîte double embrayage à 7 rapports",
       poids: "1 630",
-      production: "En cours (production limitée selon version)",
+      production: "1600",
       annee: "2017",
       prix: "300 000",
     },
@@ -77,7 +76,7 @@ const modelsData = {
     "enzo": {
     brand: "Ferrari",
     name: "Enzo Ferrari",
-    image: "/img/cars/ferrari/enzo.jpg",
+    image: "/img/cars/ferrari/enzo-ferrari.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "Nommée d'après le fondateur de la marque, l'Enzo Ferrari est une hypercar emblématique qui allie technologie de Formule 1 et performances extrêmes. Elle représente une étape clé dans l'évolution des supercars Ferrari du début des années 2000.",
@@ -197,7 +196,7 @@ const modelsData = {
     "f8-tributo": {
     brand: "Ferrari",
     name: "F8 Tributo",
-    image: "/img/cars/ferrari/ferrari-f8.jpg",
+    image: "/img/cars/ferrari/F8-Triturbo.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "La F8 Tributo est un hommage à la lignée des V8 Ferrari. Elle combine des performances extrêmes avec une efficacité aérodynamique accrue et un confort de conduite plus raffiné, tout en conservant l'ADN sportif de la marque.",
@@ -208,7 +207,7 @@ const modelsData = {
       moteur: "V8 biturbo 3.9L",
       transmission: "Boîte double embrayage à 7 rapports",
       poids: "1 435",
-      production: "En cours (depuis 2019)",
+      production: "5000",
       annee: "2019",
       prix: "250 000",
     },
@@ -221,7 +220,7 @@ const modelsData = {
     "488-gtb": {
     brand: "Ferrari",
     name: "488 GTB",
-    image: "/img/cars/ferrari/ferrari-488.jpg",
+    image: "/img/cars/ferrari/488-GTB.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "La Ferrari 488 GTB marque un tournant dans l'histoire de Ferrari avec l'adoption d’un moteur V8 biturbo, alliant performances redoutables et efficacité moderne. C’est une supercar agile, rapide et technologiquement avancée.",
@@ -245,7 +244,7 @@ const modelsData = {
     "458-speciale": {
     brand: "Ferrari",
     name: "458 Speciale",
-    image: "/img/cars/ferrari/ferrari-458-speciale.jpg",
+    image: "/img/cars/ferrari/458-speciale.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "La 458 Speciale est la version radicale de la 458 Italia. Allégée, optimisée, plus puissante, elle représente la quintessence du V8 atmosphérique Ferrari, avec une sonorité envoûtante et des performances de piste impressionnantes.",
@@ -269,7 +268,7 @@ const modelsData = {
     "f430": {
     brand: "Ferrari",
     name: "F430",
-    image: "/img/cars/ferrari/ferrari-f430.jpg",
+    image: "/img/cars/ferrari/f430.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "La Ferrari F430, successeur de la 360 Modena, introduit un design affûté, un moteur V8 plus puissant, et des innovations technologiques inspirées de la Formule 1. Elle marque une évolution importante dans l’ère moderne des Ferrari à moteur central arrière.",
@@ -293,7 +292,7 @@ const modelsData = {
     "360modena": {
     brand: "Ferrari",
     name: "360 Modena",
-    image: "/img/cars/ferrari/ferrari-360.jpg",
+    image: "/img/cars/ferrari/360-Moderna.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "La Ferrari 360 Modena représente une rupture stylistique et technologique majeure par rapport à la F355. Dotée d’une coque en aluminium plus légère et rigide, elle offre une dynamique de conduite moderne et un look intemporel.",
@@ -317,7 +316,7 @@ const modelsData = {
     "599gto": {
     brand: "Ferrari",
     name: "599 GTO",
-    image: "/img/cars/ferrari/ferrari-599gto.jpg",
+    image: "/img/cars/ferrari/599-gto.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "La Ferrari 599 GTO est une version radicale de la 599 GTB Fiorano, conçue comme une voiture homologuée route inspirée de la 599XX de circuit. C’est l’une des Ferrari les plus puissantes et exclusives de son époque.",
@@ -341,7 +340,7 @@ const modelsData = {
     "purosangue": {
     brand: "Ferrari",
     name: "Purosangue",
-    image: "/img/cars/ferrari/ferrari-purosangue.jpg",
+    image: "/img/cars/ferrari/purosangue.jpg",
     logo: "/img/logos/ferrari2.svg",
     description:
       "La Ferrari Purosangue est le tout premier SUV de la marque italienne. Alliant confort, polyvalence et des performances dignes d’une GT Ferrari, elle redéfinit les codes du SUV de luxe avec un moteur atmosphérique V12.",
@@ -352,7 +351,7 @@ const modelsData = {
       moteur: "V12 6.5L atmosphérique",
       transmission: "Boîte automatique à 8 rapports",
       poids: "2 033",
-      production: "Limitée (pas de chiffre exact communiqué)",
+      production: "5000",
       annee: "2022",
       prix: "390 000",
     },
@@ -366,7 +365,7 @@ const modelsData = {
     "aventador": {
     brand: "Lamborghini",
     name: "Aventador",
-    image: "/img/cars/lamborghini/lamborghini-aventador.jpg",
+    image: "/img/cars/lamborghini/aventador.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "L’Aventador est l’icône moderne de Lamborghini, dotée d’un puissant V12 atmosphérique et d’un design ultra agressif. Elle a marqué une nouvelle ère pour la marque de Sant’Agata en remplaçant la Murciélago.",
@@ -390,7 +389,7 @@ const modelsData = {
     "huracan": {
     brand: "Lamborghini",
     name: "Huracán",
-    image: "/img/cars/lamborghini/lamborghini-huracan.jpg",
+    image: "/img/cars/lamborghini/huracan.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Huracán est une supercar au design affûté et à la sonorité envoûtante, propulsée par un V10 atmosphérique. Elle succède à la Gallardo avec des performances accrues et une technologie embarquée moderne.",
@@ -414,7 +413,7 @@ const modelsData = {
     "revuelto": {
     brand: "Lamborghini",
     name: "Revuelto",
-    image: "/img/cars/lamborghini/lamborghini-revuelto.jpg",
+    image: "/img/cars/lamborghini/revuelto.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Revuelto est la première hypercar hybride rechargeable de la marque. Elle marque une nouvelle ère en combinant un V12 atmosphérique avec trois moteurs électriques, offrant une puissance monstrueuse tout en respectant les nouvelles normes environnementales.",
@@ -425,7 +424,7 @@ const modelsData = {
       moteur: "V12 6.5L atmosphérique + 3 moteurs électriques",
       transmission: "Boîte double embrayage à 8 rapports",
       poids: "1 772",
-      production: "À confirmer (production limitée attendue)",
+      production: "2500",
       annee: "2023",
       prix: "500 000",
     },
@@ -438,7 +437,7 @@ const modelsData = {
     "sesto-elemento": {
     brand: "Lamborghini",
     name: "Sesto Elemento",
-    image: "/img/cars/lamborghini/lamborghini-sesto.jpg",
+    image: "/img/cars/lamborghini/sesto-elemento.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Sesto Elemento est une hypercar ultralégère construite principalement en fibre de carbone, conçue pour offrir une expérience de conduite extrême sur circuit. Son nom fait référence au carbone, le sixième élément du tableau périodique.",
@@ -462,7 +461,7 @@ const modelsData = {
     "veneno": {
     brand: "Lamborghini",
     name: "Veneno",
-    image: "/img/cars/lamborghini/lamborghini-veneno.jpg",
+    image: "/img/cars/lamborghini/veneno.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Veneno est une hypercar ultra-exclusive créée pour célébrer les 50 ans de la marque. Elle pousse l’agressivité et l’aérodynamisme à leur paroxysme avec un design inspiré des prototypes de course.",
@@ -486,7 +485,7 @@ const modelsData = {
     "sian-fkp-37": {
     brand: "Lamborghini",
     name: "Sián FKP 37",
-    image: "/img/cars/lamborghini/lamborghini-sian.jpg",
+    image: "/img/cars/lamborghini/sian-fkp37.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Sián FKP 37 est la première hypercar hybride de la marque, combinant un moteur V12 atmosphérique et un système hybride 48V. Elle symbolise l’avenir de Lamborghini avec une technologie électrifiée tout en conservant la brutalité mécanique typique.",
@@ -510,7 +509,7 @@ const modelsData = {
     "centenario": {
     brand: "Lamborghini",
     name: "Centenario",
-    image: "/img/cars/lamborghini/lamborghini-centenario.jpg",
+    image: "/img/cars/lamborghini/centenario.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Centenario a été créée pour célébrer les 100 ans de la naissance de Ferruccio Lamborghini. Basée sur l’Aventador, elle pousse encore plus loin les performances, l’aérodynamique et l’exclusivité.",
@@ -534,12 +533,12 @@ const modelsData = {
     "murcielago": {
     brand: "Lamborghini",
     name: "Murciélago",
-    image: "/img/cars/lamborghini/lamborghini-murcielago.jpg",
+    image: "/img/cars/lamborghini/murcielago.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Murciélago a été la première Lamborghini entièrement développée sous l’ère Audi. Avec son V12 brutal, son design tranchant et sa sonorité envoûtante, elle a incarné la supercar italienne pendant plus d’une décennie.",
     specs: {
-      puissance: "640 (version LP640)",
+      puissance: "640",
       vitesseMax: "340",
       acceleration: "3.4",
       moteur: "V12 6.5L atmosphérique",
@@ -558,19 +557,19 @@ const modelsData = {
     "diablo": {
     brand: "Lamborghini",
     name: "Diablo",
-    image: "/img/cars/lamborghini/lamborghini-diablo.jpg",
+    image: "/img/cars/lamborghini/diablo.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Diablo est une icône des années 90, alliant look sauvage, performance brutale et absence totale de compromis. C’est la dernière Lambo 100% analogique avant l’arrivée de l’ère Audi.",
     specs: {
-      puissance: "492 à 595 selon les versions",
-      vitesseMax: "320 à 340",
+      puissance: "543",
+      vitesseMax: "330",
       acceleration: "4.5",
       moteur: "V12 5.7L / 6.0L atmosphérique",
       transmission: "Boîte manuelle 5 rapports",
-      poids: "1 570 à 1 650",
+      poids: "1 610",
       production: "2 884",
-      annee: "1990 - 2001",
+      annee: "1990",
       prix: "240 000",
     },
     funFacts: [
@@ -582,7 +581,7 @@ const modelsData = {
     "countach": {
     brand: "Lamborghini",
     name: "Countach",
-    image: "/img/cars/lamborghini/lamborghini-countach.jpg",
+    image: "/img/cars/lamborghini/countach.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Countach est l'une des voitures les plus emblématiques de l'histoire automobile, célèbre pour ses lignes anguleuses futuristes et ses portes en élytre. Elle a défini les supercars des années 70 et 80.",
@@ -606,7 +605,7 @@ const modelsData = {
     "miura": {
     brand: "Lamborghini",
     name: "Miura",
-    image: "/img/cars/lamborghini/lamborghini-miura.jpg",
+    image: "/img/cars/lamborghini/miura.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "La Lamborghini Miura est souvent considérée comme la première supercar de l’histoire. Elle a révolutionné le design automobile avec son moteur central arrière et ses lignes sensuelles dessinées par Bertone.",
@@ -630,7 +629,7 @@ const modelsData = {
     "urus": {
     brand: "Lamborghini",
     name: "Urus",
-    image: "/img/cars/lamborghini/lamborghini-urus.jpg",
+    image: "/img/cars/lamborghini/urus.jpg",
     logo: "/img/logos/lamborghini2.svg",
     description:
       "L’Urus est le premier SUV moderne de Lamborghini, combinant les performances d’une supercar avec le confort et la polyvalence d’un SUV de luxe. Il permet à la marque d’élargir sa clientèle sans renier son ADN sportif.",
@@ -660,8 +659,8 @@ const modelsData = {
       "L'Essenza SCV12 est une hypercar exclusivement conçue pour la piste. Développée par Lamborghini Squadra Corse, elle est pensée comme une machine de course extrême, non homologuée pour la route, centrée sur l'expérience de pilotage pure.",
     specs: {
       puissance: "830",
-      vitesseMax: "NC (non communiquée officiellement)",
-      acceleration: "NC (dépend du circuit)",
+      vitesseMax: "340",
+      acceleration: "2.6",
       moteur: "V12 atmosphérique 6.5L",
       transmission: "Boîte séquentielle à 6 rapports – propulsion",
       poids: "1 390",
@@ -708,7 +707,7 @@ const modelsData = {
       "La Bugatti Chiron succède à la Veyron avec des performances encore plus poussées et un design plus sculpté. Véritable monstre d’ingénierie, elle incarne la quintessence de l'hypercar moderne, combinant luxe extrême et vitesse folle.",
     specs: {
       puissance: "1 500",
-      vitesseMax: "420 (limitée électroniquement)",
+      vitesseMax: "420",
       acceleration: "2.4",
       moteur: "W16 quadriturbo 8.0L",
       transmission: "Boîte DSG à 7 rapports – transmission intégrale",
@@ -732,7 +731,7 @@ const modelsData = {
       "La Bugatti Chiron Super Sport 300+ est la version extrême de la Chiron, conçue pour franchir la mythique barre des 300 mph. C’est un chef-d'œuvre aérodynamique et technique, taillé pour la vitesse pure tout en conservant l’exclusivité et le raffinement Bugatti.",
     specs: {
       puissance: "1 600",
-      vitesseMax: "490 (atteints sans limiteur sur piste)",
+      vitesseMax: "490",
       acceleration: "2.4",
       moteur: "W16 quadriturbo 8.0L",
       transmission: "Boîte DSG à 7 rapports – transmission intégrale",
@@ -828,7 +827,7 @@ const modelsData = {
       "La Bugatti Bolide est un prototype ultra-léger conçu exclusivement pour la piste. Elle pousse les limites de la performance aérodynamique avec un rapport poids/puissance extrême et un design radical.",
     specs: {
       puissance: "1 850",
-      vitesseMax: "500+ (potentielle)",
+      vitesseMax: "500",
       acceleration: "2.2",
       moteur: "W16 quadriturbo 8.0L",
       transmission: "Boîte DSG à 7 rapports – transmission intégrale",
@@ -869,9 +868,9 @@ const modelsData = {
   },
     f1: {
     brand: "McLaren",
-    name: "McLaren F1",
+    name: "F1",
     image: "/img/cars/mclaren/mclaren-f1.jpg",
-    logo: "/img/logos/mclaren2.svg",
+    logo: "/img/logos/mclaren.svg",
     description:
       "La McLaren F1 est une légende absolue de l’automobile. Conçue sans compromis, elle était la voiture de série la plus rapide du monde dans les années 90, avec une approche centrée sur la légèreté, l’aérodynamisme et la perfection mécanique.",
     specs: {
@@ -893,9 +892,9 @@ const modelsData = {
   },
     p1: {
     brand: "McLaren",
-    name: "McLaren P1",
+    name: "P1",
     image: "/img/cars/mclaren/mclaren-p1.jpg",
-    logo: "/img/logos/mclaren2.svg",
+    logo: "/img/logos/mclaren.svg",
     description:
       "La McLaren P1 est une hypercar hybride révolutionnaire, combinant un moteur V8 bi-turbo à un système électrique pour offrir des performances foudroyantes tout en conservant une efficacité énergétique exceptionnelle. Elle fait partie du 'Saint Trinity' des hypercars avec LaFerrari et la Porsche 918.",
     specs: {
@@ -917,9 +916,9 @@ const modelsData = {
   },
     senna: {
     brand: "McLaren",
-    name: "McLaren Senna",
-    image: "/img/cars/mclaren/mclaren-senna.jpg",
-    logo: "/img/logos/mclaren2.svg",
+    name: "Senna",
+    image: "/img/cars/mclaren/mclaren.jpg",
+    logo: "/img/logos/mclaren.svg",
     description:
       "La McLaren Senna est une hypercar extrême conçue pour la piste, rendant hommage à la légende de la F1 Ayrton Senna. Son design agressif, son poids réduit et son aérodynamisme actif en font l’une des voitures les plus radicales de la marque.",
     specs: {
@@ -941,9 +940,9 @@ const modelsData = {
   },
     speedtail: {
     brand: "McLaren",
-    name: "McLaren Speedtail",
-    image: "/img/cars/mclaren/mclaren-speedtail.jpg",
-    logo: "/img/logos/mclaren2.svg",
+    name: "Speedtail",
+    image: "/img/cars/mclaren/speedtail.jpg",
+    logo: "/img/logos/mclaren.svg",
     description:
       "La McLaren Speedtail est une hypercar hybride au design futuriste, pensée pour être la plus rapide de la marque. Elle combine élégance aérodynamique et puissance brute pour offrir une expérience de vitesse ultime.",
     specs: {
@@ -965,9 +964,9 @@ const modelsData = {
   },
     artura: {
     brand: "McLaren",
-    name: "McLaren Artura",
-    image: "/img/cars/mclaren/mclaren-artura.jpg",
-    logo: "/img/logos/mclaren2.svg",
+    name: "Artura",
+    image: "/img/cars/mclaren/artura.jpg",
+    logo: "/img/logos/mclaren.svg",
     description:
       "La McLaren Artura est une supercar hybride rechargeable qui marque une nouvelle ère pour la marque. Elle associe légèreté, efficacité et performances avec un design moderne et une technologie de pointe.",
     specs: {
@@ -989,9 +988,9 @@ const modelsData = {
   },
     "765lt": {
     brand: "McLaren",
-    name: "McLaren 765LT",
-    image: "/img/cars/mclaren/mclaren-765lt.jpg",
-    logo: "/img/logos/mclaren2.svg",
+    name: "765LT",
+    image: "/img/cars/mclaren/765lt.jpg",
+    logo: "/img/logos/mclaren.svg",
     description:
       "La McLaren 765LT est une version allégée et plus radicale de la 720S. Pensée pour la piste, elle offre une expérience de conduite extrême avec un poids réduit, une aérodynamique améliorée et une puissance accrue.",
     specs: {
@@ -1025,7 +1024,7 @@ const modelsData = {
     moteur: "6 cylindres en ligne 3.0L biturbo",
     transmission: "Boîte automatique à 8 rapports",
     poids: "1 730",
-    production: "N/A",
+    production: "18 000",
     annee: "2020",
     prix: "99 000",
   },
@@ -1050,7 +1049,7 @@ const modelsData = {
     moteur: "V8 4.4L biturbo",
     transmission: "Boîte automatique à 8 rapports",
     poids: "1 865",
-    production: "N/A",
+    production: "20 000",
     annee: "2020",
     prix: "135 000",
   },
@@ -1075,7 +1074,7 @@ const modelsData = {
     moteur: "V8 4.4L biturbo",
     transmission: "Boîte automatique à 8 rapports",
     poids: "1 885",
-    production: "N/A",
+    production: "32",
     annee: "2019",
     prix: "170 000",
   },
@@ -1089,7 +1088,7 @@ const modelsData = {
   brand: "Audi",
   name: "Audi R8",
   image: "/img/cars/Audi/audi-r8.jpg",
-  logo: "/img/logos/audi2.svg",
+  logo: "/img/logos/audi.svg",
   description:
     "L’Audi R8 est une supercar emblématique qui combine design raffiné, technologie Quattro et moteur V10 atmosphérique. Elle représente l'équilibre parfait entre luxe et performance brute.",
   specs: {
@@ -1100,7 +1099,7 @@ const modelsData = {
     transmission: "Boîte S tronic à 7 rapports",
     poids: "1 595",
     production: "29 000",
-    annee: "2007 (1ère génération) – 2023 (fin de production)",
+    annee: "2007",
     prix: "209 000",
   },
   funFacts: [
@@ -1113,7 +1112,7 @@ const modelsData = {
   brand: "Audi",
   name: "PB18 R8 ABT",
   image: "/img/cars/Audi/audi-r8-abt.jpg",
-  logo: "/img/logos/audi2.svg",
+  logo: "/img/logos/audi.svg",
   description:
     "La PB18 R8 ABT est une version concept hybride de l'Audi R8 poussée par ABT Sportsline. Elle mélange design futuriste, performances électrifiées et agressivité typique des show cars allemands.",
   specs: {
@@ -1137,12 +1136,12 @@ const modelsData = {
   brand: "Audi",
   name: "Audi RS6 Avant",
   image: "/img/cars/Audi/audi-rs6.jpg",
-  logo: "/img/logos/audi2.svg",
+  logo: "/img/logos/audi.svg",
   description:
     "L’Audi RS6 Avant est un break familial radicalement sportif. Elle associe espace, luxe et performances extrêmes grâce à un V8 bi-turbo et la transmission intégrale Quattro.",
   specs: {
     puissance: "600",
-    vitesseMax: "305 (avec pack dynamique)",
+    vitesseMax: "305",
     acceleration: "3.6",
     moteur: "V8 4.0L biturbo mild hybrid",
     transmission: "Quattro – Tiptronic 8 rapports",
@@ -1161,12 +1160,12 @@ const modelsData = {
   brand: "Audi",
   name: "Audi RS7 Sportback",
   image: "/img/cars/Audi/audi-rs7.jpg",
-  logo: "/img/logos/audi2.svg",
+  logo: "/img/logos/audi.svg",
   description:
     "L’Audi RS7 Sportback est une berline coupé alliant élégance, confort et performances explosives. Son style musclé et sa technologie Quattro en font un daily driver redoutable.",
   specs: {
     puissance: "600",
-    vitesseMax: "305 (pack dynamique)",
+    vitesseMax: "305",
     acceleration: "3.6",
     moteur: "V8 4.0L biturbo mild hybrid",
     transmission: "Quattro – Tiptronic 8 rapports",
@@ -1185,7 +1184,7 @@ const modelsData = {
   brand: "Audi",
   name: "Audi PB18 e-tron",
   image: "/img/cars/Audi/audi-pb18.jpg",
-  logo: "/img/logos/audi2.svg",
+  logo: "/img/logos/audi.svg",
   description:
     "L’Audi PB18 e-tron est un concept-car 100% électrique orienté piste, dévoilé en 2018. Elle incarne la vision future d’Audi pour une supercar électrique radicale et légère.",
   specs: {
@@ -1194,7 +1193,7 @@ const modelsData = {
     acceleration: "2.0",
     moteur: "3 moteurs électriques (1 avant, 2 arrière)",
     transmission: "Transmission intégrale électrique",
-    poids: "1 550 (grâce à l’aluminium et au carbone)",
+    poids: "1 550",
     production: "Prototype unique",
     annee: "2018",
     prix: "Non commercialisée",
@@ -1207,9 +1206,9 @@ const modelsData = {
 },
 "amg-one": {
   brand: "Mercedes",
-  name: "Mercedes-AMG One",
-  image: "/img/cars/Mercedes/amg-one.jpg",
-  logo: "/img/logos/mercedes2.svg",
+  name: "AMG One",
+  image: "/img/cars/Mercedes/mercedes.jpg",
+  logo: "/img/logos/mercedes.svg",
   description:
     "L’AMG One est une hypercar hybride plug-in qui intègre un véritable moteur de Formule 1 dans une voiture homologuée pour la route. Elle est le summum du transfert technologique entre piste et route.",
   specs: {
@@ -1231,14 +1230,14 @@ const modelsData = {
 },
 "g63-amg": {
   brand: "Mercedes",
-  name: "Mercedes G63 AMG",
-  image: "/img/cars/Mercedes/g63.jpg",
-  logo: "/img/logos/mercedes2.svg",
+  name: "G63 AMG",
+  image: "/img/cars/Mercedes/mercedes-g63.jpg",
+  logo: "/img/logos/mercedes.svg",
   description:
     "Le G63 AMG est le 4x4 de luxe iconique de Mercedes. Malgré son look carré et militaire, il cache un moteur V8 biturbo explosif et un confort intérieur digne d’une limousine.",
   specs: {
     puissance: "585",
-    vitesseMax: "220 (limitée)",
+    vitesseMax: "220",
     acceleration: "4.5",
     moteur: "V8 4.0L biturbo",
     transmission: "4MATIC+ – boîte auto 9 rapports",
@@ -1255,13 +1254,13 @@ const modelsData = {
 },
 "eqs": {
   brand: "Mercedes",
-  name: "Mercedes EQS",
-  image: "/img/cars/Mercedes/eqs.jpg",
-  logo: "/img/logos/mercedes2.svg",
+  name: "EQS",
+  image: "/img/cars/Mercedes/mercedes-eqs.jpg",
+  logo: "/img/logos/mercedes.svg",
   description:
     "L’EQS est la première berline 100% électrique de luxe de Mercedes. Elle combine technologies avancées, design futuriste et confort ultime, dans un silence total.",
   specs: {
-    puissance: "523 (EQS 580 4MATIC)",
+    puissance: "523",
     vitesseMax: "210",
     acceleration: "4.3",
     moteur: "Double moteur électrique",
@@ -1279,20 +1278,20 @@ const modelsData = {
 },
 "classe-s": {
   brand: "Mercedes",
-  name: "Mercedes Classe",
-  image: "/img/cars/Mercedes/classe-s.jpg",
-  logo: "/img/logos/mercedes2.svg",
+  name: "Classe S",
+  image: "/img/cars/Mercedes/mercedes-sclass.jpg",
+  logo: "/img/logos/mercedes.svg",
   description:
     "La Classe S est la référence ultime en matière de berline de luxe. Chaque génération introduit des innovations technologiques reprises ensuite dans toute l’industrie automobile.",
   specs: {
-    puissance: "435 (S 500 4MATIC Mild Hybrid)",
+    puissance: "435",
     vitesseMax: "250",
     acceleration: "4.9",
     moteur: "6 cylindres en ligne 3.0L turbo mild hybrid",
     transmission: "4MATIC – boîte auto 9 rapports",
     poids: "2 065",
     production: "En cours",
-    annee: "2020 – aujourd’hui (W223)",
+    annee: "2020",
     prix: "130 000",
   },
   funFacts: [
@@ -1303,7 +1302,7 @@ const modelsData = {
 },
 "clk-gtr": {
   brand: "Mercedes",
-  name: "Mercedes CLK GTR",
+  name: "CLK GTR",
   image: "/img/cars/mercedes/clk-gtr.jpg",
   logo: "/img/logos/mercedes.svg",
   description:
@@ -1328,19 +1327,19 @@ const modelsData = {
 
 "vision-avtr": {
   brand: "Mercedes",
-  name: "Mercedes Vision AVTR",
+  name: "Vision AVTR",
   image: "/img/cars/mercedes/mercedes-avtr.jpg",
   logo: "/img/logos/mercedes.svg",
   description:
     "Le concept Mercedes Vision AVTR, inspiré du film Avatar, explore l’union entre l’homme, la machine et la nature. Il combine durabilité, intelligence artificielle et design biomimétique futuriste.",
   specs: {
     puissance: "Non spécifiée",
-    vitesseMax: "Concept car",
-    acceleration: "Concept car",
+    vitesseMax: "N/A",
+    acceleration: "N/A",
     moteur: "100% électrique avec 4 moteurs indépendants",
     transmission: "Transmission intégrale électrique",
-    poids: "Concept car",
-    production: "Concept unique",
+    poids: "N/A",
+    production: "N/A",
     annee: "2020",
     prix: "Inestimable",
   },
@@ -1353,7 +1352,7 @@ const modelsData = {
 
 "slr-stirling-moss": {
   brand: "Mercedes",
-  name: "Mercedes SLR Stirling Moss",
+  name: "SLR Stirling Moss",
   image: "/img/cars/mercedes/mercedes-slr-stirling-moss.jpg",
   logo: "/img/logos/mercedes.svg",
   description:
@@ -1377,13 +1376,13 @@ const modelsData = {
 },
 "zonda": {
   brand: "Pagani",
-  name: "Pagani Zonda",
+  name: "Zonda",
   image: "/img/cars/pagani/pagani-zonda.jpg",
   logo: "/img/logos/pagani.svg",
   description:
     "La Pagani Zonda est le tout premier modèle de la marque italienne. Avec son design unique et ses performances extrêmes, elle a posé les bases du style Pagani et conquis les amateurs de supercars du monde entier.",
   specs: {
-    puissance: "602 (Zonda F)",
+    puissance: "602",
     vitesseMax: "345",
     acceleration: "3.6",
     moteur: "V12 7.3L AMG",
@@ -1402,7 +1401,7 @@ const modelsData = {
 
 "huayra": {
   brand: "Pagani",
-  name: "Pagani Huayra",
+  name: "Huayra",
   image: "/img/cars/pagani/pagani-huayra.jpg",
   logo: "/img/logos/pagani.svg",
   description:
@@ -1427,7 +1426,7 @@ const modelsData = {
 
 "huayra-r": {
   brand: "Pagani",
-  name: "Pagani Huayra R",
+  name: "Huayra R",
   image: "/img/cars/pagani/pagani-huyra-r.jpg",
   logo: "/img/logos/pagani.svg",
   description:
@@ -1452,7 +1451,7 @@ const modelsData = {
 
 "utopia": {
   brand: "Pagani",
-  name: "Pagani Utopia",
+  name: "Utopia",
   image: "/img/cars/pagani/pagani-utopia.jpg",
   logo: "/img/logos/pagani.svg",
   description:
@@ -1476,7 +1475,7 @@ const modelsData = {
 },
 "rocket-900": {
   brand: "Brabus",
-  name: "Brabus Rocket 900",
+  name: "Rocket 900",
   image: "/img/cars/brabus/brabus-rocket.jpg",
   logo: "/img/logos/brabus.svg",
   description:
@@ -1501,7 +1500,7 @@ const modelsData = {
 
 "g900": {
   brand: "Brabus",
-  name: "Brabus G900",
+  name: "G900",
   image: "/img/cars/brabus/brabus.jpg",
   logo: "/img/logos/brabus.svg",
   description:
@@ -1538,7 +1537,7 @@ const modelsData = {
     moteur: "V8 4.0L biturbo préparé Brabus",
     transmission: "Boîte automatique 9 rapports",
     poids: "2 500",
-    production: "Variable selon base (série limitée)",
+    production: "30",
     annee: "2020",
     prix: "290 000",
   },
@@ -1550,9 +1549,9 @@ const modelsData = {
 },
 "phantom": {
   brand: "Rolls-Royce",
-  name: "Rolls-Royce Phantom",
+  name: "Phantom",
   image: "/img/cars/rolls-royce/rolls-phantom.jpg",
-  logo: "/img/logos/rollsroyce.svg",
+  logo: "/img/logos/rolls-royce2.svg",
   description:
     "La Rolls-Royce Phantom est le symbole ultime du luxe automobile. Connue pour son raffinement extrême, son confort irréprochable et sa présence majestueuse, c’est une référence dans le monde des berlines de prestige.",
   specs: {
@@ -1562,7 +1561,7 @@ const modelsData = {
     moteur: "V12 6.75L",
     transmission: "Boîte automatique 8 rapports",
     poids: "2 560",
-    production: "Depuis 2017 (8e génération)",
+    production: "1680",
     annee: "2017",
     prix: "450 000",
   },
@@ -1575,9 +1574,9 @@ const modelsData = {
 
 "ghost": {
   brand: "Rolls-Royce",
-  name: "Rolls-Royce Ghost",
+  name: "Ghost",
   image: "/img/cars/rolls-royce/rolls-ghost.jpg",
-  logo: "/img/logos/rollsroyce.svg",
+  logo: "/img/logos/rolls-royce2.svg",
   description:
     "La Ghost est la berline 'd’entrée de gamme' de Rolls-Royce, mais cela reste une Rolls à part entière : silence absolu, motorisation V12 et technologie de pointe dans une robe plus discrète que la Phantom.",
   specs: {
@@ -1587,7 +1586,7 @@ const modelsData = {
     moteur: "V12 6.75L biturbo",
     transmission: "Boîte automatique 8 rapports",
     poids: "2 490",
-    production: "Depuis 2020 (2e génération)",
+    production: "7874",
     annee: "2020",
     prix: "330 000",
   },
@@ -1600,9 +1599,9 @@ const modelsData = {
 
 "spectre": {
   brand: "Rolls-Royce",
-  name: "Rolls-Royce Spectre",
+  name: "Spectre",
   image: "/img/cars/rolls-royce/rolls-spectre.jpg",
-  logo: "/img/logos/rollsroyce.svg",
+  logo: "/img/logos/rolls-royce2.svg",
   description:
     "La Spectre est le tout premier coupé électrique de Rolls-Royce, alliant la puissance silencieuse de l’électrique avec le raffinement traditionnel de la marque britannique. C’est le début d’une nouvelle ère pour Rolls.",
   specs: {
@@ -1625,9 +1624,9 @@ const modelsData = {
 
 "cullinan": {
   brand: "Rolls-Royce",
-  name: "Rolls-Royce Cullinan",
+  name: "Cullinan",
   image: "/img/cars/rolls-royce/rolls-cullinan.jpg",
-  logo: "/img/logos/rollsroyce.svg",
+  logo: "/img/logos/rolls-royce2.svg",
   description:
     "Le Cullinan est le premier SUV de Rolls-Royce. Il combine luxe absolu, confort sur route et capacité tout-terrain, tout en conservant l’élégance et la prestance emblématiques de la marque.",
   specs: {
@@ -1650,9 +1649,9 @@ const modelsData = {
 
 "wraith": {
   brand: "Rolls-Royce",
-  name: "Rolls-Royce Wraith",
+  name: "Wraith",
   image: "/img/cars/rolls-royce/rolls-wraith.jpg",
-  logo: "/img/logos/rollsroyce.svg",
+  logo: "/img/logos/rolls-royce2.svg",
   description:
     "Le Wraith est le coupé grand luxe de Rolls-Royce, combinant performances dynamiques et design élégant. C’est l’un des modèles les plus puissants jamais produits par la marque.",
   specs: {
@@ -1674,19 +1673,19 @@ const modelsData = {
 },
 "911": {
   brand: "Porsche",
-  name: "Porsche 911",
+  name: "911",
   image: "/img/cars/porsche/porsche-911.jpg",
-  logo: "/img/logos/porsche.svg",
+  logo: "/img/logos/porsche2.jpg",
   description:
     "La Porsche 911 est une icône de l’automobile depuis plus de 60 ans. Elle incarne l’équilibre parfait entre sportivité, élégance et polyvalence, tout en conservant son célèbre moteur en porte-à-faux arrière.",
   specs: {
-    puissance: "450 (Carrera 4S)",
+    puissance: "450",
     vitesseMax: "306",
     acceleration: "3.6",
     moteur: "Flat-6 3.0L biturbo",
     transmission: "Boîte PDK à 8 rapports",
     poids: "1 580",
-    production: "Depuis 1964 (992 = génération actuelle)",
+    production: "1 300 000",
     annee: "2019",
     prix: "130 000",
   },
@@ -1699,13 +1698,13 @@ const modelsData = {
 
 "taycan": {
   brand: "Porsche",
-  name: "Porsche Taycan",
+  name: "Taycan",
   image: "/img/cars/porsche/porsche-taycan.jpg",
-  logo: "/img/logos/porsche.svg",
+  logo: "/img/logos/porsche2.jpg",
   description:
     "Le Taycan est la première voiture 100% électrique de Porsche. Il combine des performances hallucinantes avec un design affuté et un intérieur high-tech, tout en conservant l’esprit Porsche.",
   specs: {
-    puissance: "761 (Turbo S)",
+    puissance: "761",
     vitesseMax: "260",
     acceleration: "2.8",
     moteur: "Électrique dual-motor AWD",
@@ -1724,9 +1723,9 @@ const modelsData = {
 
 "918": {
   brand: "Porsche",
-  name: "Porsche 918 Spyder",
+  name: "918 Spyder",
   image: "/img/cars/porsche/porsche-918.jpg",
-  logo: "/img/logos/porsche.svg",
+  logo: "/img/logos/porsche2.jpg",
   description:
     "La 918 Spyder est une hypercar hybride qui a redéfini les limites de la performance. Avec ses moteurs électrique et thermique combinés, elle rivalise avec les plus grands noms du monde automobile.",
   specs: {
@@ -1749,13 +1748,13 @@ const modelsData = {
 
 "panamera": {
   brand: "Porsche",
-  name: "Porsche Panamera",
+  name: "Panamera",
   image: "/img/cars/porsche/porsche-panamera.jpg",
-  logo: "/img/logos/porsche.svg",
+  logo: "/img/logos/porsche2.jpg",
   description:
     "La Panamera est la grande berline sportive de Porsche, alliant confort de limousine et performances de coupé. Elle est aussi disponible en versions hybrides performantes.",
   specs: {
-    puissance: "700 (Turbo S E-Hybrid)",
+    puissance: "700",
     vitesseMax: "315",
     acceleration: "3.2",
     moteur: "V8 4.0L biturbo + moteur électrique",
@@ -1776,7 +1775,7 @@ const modelsData = {
   brand: "Porsche",
   name: "Cayman GT4",
   image: "/img/cars/porsche/porsche-gt4.jpg",
-  logo: "/img/logos/porsche.svg",
+  logo: "/img/logos/porsche2.jpg",
   description:
     "Le Cayman GT4 est une version radicale de la Porsche 718. Il est pensé pour la piste avec un châssis affûté, un moteur atmosphérique, une boîte manuelle et une précision chirurgicale.",
   specs: {
@@ -1800,7 +1799,7 @@ const modelsData = {
   brand: "Aston Martin",
   name: "DB11",
   image: "/img/cars/Aston-Martin/astonmartin-db11.jpg",
-  logo: "/img/logos/astonmartin2.svg",
+  logo: "/img/logos/aston-martin2.svg",
   description:
     "L’Aston Martin DB11 est le grand tourisme de référence de la marque britannique. Élégante et puissante, elle combine confort, luxe et performances avec un design racé et des technologies modernes.",
   specs: {
@@ -1825,7 +1824,7 @@ const modelsData = {
   brand: "Aston Martin",
   name: "Valkyrie",
   image: "/img/cars/Aston-Martin/astonmartin-valkyrie.jpg",
-  logo: "/img/logos/astonmartin2.svg",
+  logo: "/img/logos/aston-martin2.svg",
   description:
     "L’Aston Martin Valkyrie est une hypercar hybride née de la collaboration entre Aston Martin et Red Bull Racing. Elle est conçue comme une F1 pour la route avec un aérodynamisme extrême et un moteur atmosphérique spectaculaire.",
   specs: {
@@ -1850,7 +1849,7 @@ const modelsData = {
   brand: "Aston Martin",
   name: "Vantage",
   image: "/img/cars/Aston-Martin/astonmartin-vantage.jpg",
-  logo: "/img/logos/astonmartin2.svg",
+  logo: "/img/logos/aston-martin2.svg",
   description:
     "L’Aston Martin Vantage est le coupé sportif compact de la marque. Alliant performance et design agressif, elle est propulsée par un moteur AMG et se destine autant à la route qu'à la piste.",
   specs: {
@@ -1912,7 +1911,7 @@ const modelsData = {
     transmission: "Boîte manuelle ou automatique à 6 ou 10 rapports",
     poids: "1 670",
     production: "Encore en production",
-    annee: "2016 (génération actuelle)",
+    annee: "2016",
     prix: "45 000",
   },
   funFacts: [
@@ -1938,7 +1937,7 @@ const modelsData = {
     transmission: "Boîte automatique à 6 rapports",
     poids: "1 750",
     production: "Modèle arrêté en 2020",
-    annee: "2014 (dernière génération)",
+    annee: "2014",
     prix: "35 000",
   },
   funFacts: [
@@ -1989,7 +1988,7 @@ const modelsData = {
     transmission: "Boîte automatique à 8 rapports",
     poids: "2 065",
     production: "En production limitée",
-    annee: "2015 (Hellcat), 2021 (Redeye)",
+    annee: "2015",
     prix: "75 000",
   },
   funFacts: [
@@ -2015,7 +2014,7 @@ const modelsData = {
     transmission: "Boîte manuelle à 6 rapports",
     poids: "1 530",
     production: "30 000",
-    annee: "1992-2017 (toutes générations)",
+    annee: "1992",
     prix: "120 000",
   },
   funFacts: [
@@ -2029,7 +2028,7 @@ const modelsData = {
   brand: "Nissan",
   name: "GT-R R35",
   image: "/img/cars/nissan/Nissan.jpg",
-  logo: "/img/logos/nissan.svg",
+  logo: "/img/logos/nissan2.svg",
   description:
     "La Nissan GT-R R35 est une supercar japonaise surnommée 'Godzilla'. Elle est célèbre pour ses performances impressionnantes, sa technologie avancée et son rapport prix/puissance redoutable.",
   specs: {
@@ -2039,7 +2038,7 @@ const modelsData = {
     moteur: "V6 3.8L biturbo",
     transmission: "Boîte double embrayage à 6 rapports, transmission intégrale",
     poids: "1 752",
-    production: "Toujours en production (lancée en 2007)",
+    production: "40 000",
     annee: "2007",
     prix: "110 000",
   },
@@ -2055,7 +2054,7 @@ const modelsData = {
   brand: "Nissan",
   name: "370Z",
   image: "/img/cars/nissan/nissan-370z.jpg",
-  logo: "/img/logos/nissan.svg",
+  logo: "/img/logos/nissan2.svg",
   description:
     "La Nissan 370Z est un coupé sportif emblématique à propulsion arrière. Elle incarne la lignée Z de Nissan avec un bon équilibre entre performance, style et accessibilité.",
   specs: {
@@ -2081,7 +2080,7 @@ const modelsData = {
   brand: "Nissan",
   name: "Leaf",
   image: "/img/cars/nissan/nissan-leaf.jpg",
-  logo: "/img/logos/nissan.svg",
+  logo: "/img/logos/nissan2.svg",
   description:
     "La Nissan Leaf est la première voiture 100% électrique produite en masse. Elle a démocratisé la mobilité électrique en étant accessible et pratique pour un usage quotidien.",
   specs: {
@@ -2104,9 +2103,9 @@ const modelsData = {
 // Supra
 "supra": {
   brand: "Toyota",
-  name: "Toyota GR Supra",
+  name: "GR Supra",
   image: "/img/cars/toyota/toyota-supra.jpg",
-  logo: "/img/logos/toyota.svg",
+  logo: "/img/logos/toyota.png",
   description:
     "La Toyota GR Supra est une sportive emblématique de la marque japonaise, développée en collaboration avec BMW. Elle combine design agressif, moteur puissant et comportement routier précis.",
   specs: {
@@ -2130,9 +2129,9 @@ const modelsData = {
 // GR Yaris
 "gr-yaris": {
   brand: "Toyota",
-  name: "Toyota GR Yaris",
+  name: "GR Yaris",
   image: "/img/cars/toyota/toyota-gr-yaris.jpg",
-  logo: "/img/logos/toyota.svg",
+  logo: "/img/logos/toyota.png",
   description:
     "La Toyota GR Yaris est une bombinette homologuée pour la route, née du rallye. Avec sa transmission intégrale, son poids plume et son moteur 3 cylindres survitaminé, elle est une véritable bête de circuit.",
   specs: {
@@ -2152,14 +2151,15 @@ const modelsData = {
     "Considérée comme l'une des meilleures sportives compactes modernes.",
   ],
 },
-// Mustang GT500
+/// Ford
+// Mustang GT500 (moderne)
 "mustang-gt500": {
   brand: "Ford",
-  name: "Ford Mustang Shelby GT500",
-  image: "/img/cars/ford/ford-mustang-gt500.jpg",
+  name: "Mustang Shelby GT500 (2020)",
+  image: "/img/cars/ford/ford-shelby.jpg",
   logo: "/img/logos/ford.svg",
   description:
-    "La Ford Mustang Shelby GT500 est la version la plus extrême de la gamme Mustang. Elle combine un moteur V8 suralimenté avec des performances dignes d’une supercar tout en conservant son style musclé emblématique.",
+    "La Ford Mustang Shelby GT500 (2020) est la version la plus puissante et technologiquement avancée jamais produite par Ford. Pensée pour la performance sur route et sur piste, elle incarne la modernité de l'héritage Shelby.",
   specs: {
     puissance: "770",
     vitesseMax: "290",
@@ -2174,27 +2174,51 @@ const modelsData = {
   funFacts: [
     "C’est la Mustang de série la plus puissante jamais produite.",
     "Elle ne propose pas de boîte manuelle, ce qui a divisé les puristes.",
-    "Elle est capable de battre certaines supercars sur circuit.",
+    "Elle peut faire un 0-100 km/h plus rapide que certaines Lamborghini.",
   ],
 },
 
-// GT40
+// Shelby GT500 (classique)
+"shelby-gt500": {
+  brand: "Ford",
+  name: "Mustang GT500 (1967)",
+  image: "/img/cars/ford/ford-mustang.jpg",
+  logo: "/img/logos/ford.svg",
+  description:
+    "La Mustang GT500 de 1967 est une icône de la muscle car américaine, fruit de la collaboration entre Carroll Shelby et Ford. Elle incarne la puissance brute et le style racé des années 60.",
+  specs: {
+    puissance: "355",
+    vitesseMax: "210",
+    acceleration: "6.5",
+    moteur: "V8 7.0L (428ci Police Interceptor)",
+    transmission: "Boîte manuelle à 4 rapports",
+    poids: "1 650",
+    production: "2 048",
+    annee: "1967",
+    prix: "225 000",
+  },
+  funFacts: [
+    "Elle est devenue culte grâce au film *Gone in 60 Seconds* avec la voiture 'Eleanor'.",
+    "Le modèle de 1967 fut le premier à utiliser le moteur 428 Police Interceptor.",
+    "Sa production limitée en fait une voiture très recherchée aujourd'hui.",
+  ],
+},
 "gt40": {
   brand: "Ford",
-  name: "Ford GT40",
+  name: "GT40",
   image: "/img/cars/ford/ford-gt40.jpg",
   logo: "/img/logos/ford.svg",
   description:
     "La Ford GT40 est une icône du sport automobile, conçue pour battre Ferrari au Mans. Mission accomplie avec 4 victoires consécutives entre 1966 et 1969. Une légende à l’ADN purement racing.",
   specs: {
-    puissance: "485 (MK II)",
+    puissance: "485",
     vitesseMax: "330",
     acceleration: "4.2",
     moteur: "V8 7.0L",
     transmission: "Boîte manuelle à 4 rapports",
     poids: "1 200",
-    production: "105 exemplaires",
-    annee: "1964–1969",
+    production: "105",
+    annee: "1964",
     prix: "3 600 000",
   },
   funFacts: [
@@ -2203,48 +2227,22 @@ const modelsData = {
     "Elle est entrée dans l’histoire avec un triplé au Mans en 1966.",
   ],
 },
-
-// Shelby GT500 (original)
-"shelby-gt500": {
-  brand: "Ford",
-  name: "Ford Mustang Shelby GT500 (1967)",
-  image: "/img/cars/ford/ford-shelby-gt500.jpg",
-  logo: "/img/logos/ford.svg",
-  description:
-    "La Shelby GT500 de 1967 est une muscle car légendaire née de la collaboration entre Carroll Shelby et Ford. Elle allie puissance brute et style américain classique.",
-  specs: {
-    puissance: "355",
-    vitesseMax: "210",
-    acceleration: "6.5",
-    moteur: "V8 7.0L (428ci Police Interceptor)",
-    transmission: "Boîte manuelle à 4 rapports",
-    poids: "1 650",
-    production: "2 048 exemplaires (1967)",
-    annee: "1967",
-    prix: "225 000",
-  },
-  funFacts: [
-    "Elle est devenue culte grâce au film *Gone in 60 Seconds* avec la voiture 'Eleanor'.",
-    "C'était l'une des Mustang les plus puissantes de son époque.",
-    "Le capot était en fibre de verre pour réduire le poids.",
-  ],
-},
 // Jesko
 "jesko": {
   brand: "Koenigsegg",
-  name: "Koenigsegg Jesko",
+  name: "Jesko",
   image: "/img/cars/koenigsegg/koenigsegg-jesko.jpg",
-  logo: "/img/logos/koenigsegg.svg",
+  logo: "/img/logos/koenigsegg.png",
   description:
     "La Koenigsegg Jesko est une hypercar suédoise conçue pour battre tous les records de performance. Elle rend hommage au père du fondateur, Jesko von Koenigsegg, et allie innovation extrême et puissance brute.",
   specs: {
-    puissance: "1 600 (avec carburant E85)",
-    vitesseMax: "Plus de 500 (estimée)",
+    puissance: "1 600",
+    vitesseMax: "500",
     acceleration: "2.5",
     moteur: "V8 5.0L biturbo",
     transmission: "Boîte 9 rapports Koenigsegg Light Speed Transmission",
     poids: "1 320",
-    production: "125 exemplaires",
+    production: "125",
     annee: "2021",
     prix: "2 800 000",
   },
@@ -2258,9 +2256,9 @@ const modelsData = {
 // Regera
 "regera": {
   brand: "Koenigsegg",
-  name: "Koenigsegg Regera",
+  name: "Regera",
   image: "/img/cars/koenigsegg/koenigsegg-regera.jpg",
-  logo: "/img/logos/koenigsegg.svg",
+  logo: "/img/logos/koenigsegg.png",
   description:
     "La Koenigsegg Regera est une hypercar hybride luxueuse et radicale. Elle abandonne la boîte de vitesses traditionnelle au profit d’un système révolutionnaire pour une accélération fluide et immédiate.",
   specs: {
@@ -2270,7 +2268,7 @@ const modelsData = {
     moteur: "V8 5.0L biturbo + 3 moteurs électriques",
     transmission: "Koenigsegg Direct Drive (KDD)",
     poids: "1 590",
-    production: "80 exemplaires",
+    production: "80",
     annee: "2016",
     prix: "1 900 000",
   },
@@ -2284,20 +2282,20 @@ const modelsData = {
 // Agera
 "agera": {
   brand: "Koenigsegg",
-  name: "Koenigsegg Agera",
+  name: "Agera",
   image: "/img/cars/koenigsegg/koenigsegg-agera.jpg",
-  logo: "/img/logos/koenigsegg.svg",
+  logo: "/img/logos/koenigsegg.png",
   description:
     "La Koenigsegg Agera est l'hypercar qui a marqué un tournant pour le constructeur suédois. Mélange de technologie, d’aérodynamique et de brutalité, elle a décroché plusieurs records mondiaux de vitesse.",
   specs: {
-    puissance: "947 à 1 341 (selon version)",
-    vitesseMax: "447 (Agera RS)",
+    puissance: "1144",
+    vitesseMax: "447",
     acceleration: "2.9",
     moteur: "V8 5.0L biturbo",
     transmission: "Boîte automatique à 7 rapports avec palettes",
     poids: "1 395",
-    production: "25 exemplaires (Agera RS), séries limitées pour les autres",
-    annee: "2010–2018",
+    production: "25",
+    annee: "2010",
     prix: "2 000 000",
   },
   funFacts: [
@@ -2309,19 +2307,19 @@ const modelsData = {
 // Venom F5
 "venom-f5": {
   brand: "Hennessey",
-  name: "Hennessey Venom F5",
+  name: "Venom F5",
   image: "/img/cars/hennessey/hennessey-venomf5.jpg",
-  logo: "/img/logos/hennessey.svg",
+  logo: "img/logos/hennessey2.svg",
   description:
     "La Hennessey Venom F5 est une hypercar américaine développée pour franchir la barre des 500. Nommée d’après la plus puissante catégorie de tornades, elle est conçue pour dominer la vitesse pure.",
   specs: {
     puissance: "1 817",
-    vitesseMax: "500+ (objectif)",
+    vitesseMax: "500",
     acceleration: "2.6",
     moteur: "V8 6.6L biturbo 'Fury'",
     transmission: "Boîte automatique à 7 rapports",
     poids: "1 360",
-    production: "24 exemplaires",
+    production: "24",
     annee: "2021",
     prix: "2 100 000",
   },
@@ -2335,9 +2333,9 @@ const modelsData = {
 // Venom GT
 "venom-gt": {
   brand: "Hennessey",
-  name: "Hennessey Venom GT",
+  name: "Venom GT",
   image: "/img/cars/hennessey/hennessey-venomgt.jpg",
-  logo: "/img/logos/hennessey.svg",
+  logo: "img/logos/hennessey.png",
   description:
     "Basée sur une Lotus Exige largement modifiée, la Hennessey Venom GT est une machine extrême née pour la vitesse. Elle a détenu le record mondial de vitesse pour une voiture de production en 2014.",
   specs: {
@@ -2355,6 +2353,55 @@ const modelsData = {
     "Le rapport poids/puissance est exactement 1:1.",
     "Elle a atteint 435 sur la piste de la NASA en Floride.",
     "Seulement 13 exemplaires ont été produits au total.",
+  ],
+},
+"intensa-emozione": {
+  brand: "Apollo",
+  name: "Intensa Emozione",
+  image: "/img/cars/apollo/apollo-ie.jpg",
+  logo: "/img/logos/apollo.png",
+  description:
+    "L’Apollo Intensa Emozione est une hypercar radicale, conçue pour offrir une expérience de conduite viscérale. Avec son V12 atmosphérique hurlant et son design digne d’un vaisseau spatial, elle incarne l’adrénaline pure.",
+  specs: {
+    puissance: "780",
+    vitesseMax: "335",
+    acceleration: "2.7",
+    moteur: "V12 6.3L atmosphérique",
+    transmission: "Boîte séquentielle à 6 rapports",
+    poids: "1 250",
+    production: "10",
+    annee: "2017",
+    prix: "2 300 000",
+  },
+  funFacts: [
+    "Le nom 'Intensa Emozione' signifie 'émotion intense' en italien.",
+    "Son V12 est dépourvu de turbo pour une réponse instantanée et un son brutal.",
+    "Elle génère plus de 1 350 kg d’appui aérodynamique à haute vitesse.",
+  ],
+},
+
+"project-evo": {
+  brand: "Apollo",
+  name: "Project EVO",
+  image: "/img/cars/apollo/apollo-evo.jpg",
+  logo: "/img/logos/apollo.png",
+  description:
+    "L’Apollo Project EVO est l’évolution extrême de l’Intensa Emozione, avec un design encore plus agressif et des performances repoussant les limites de la route et du circuit.",
+  specs: {
+    puissance: "850",
+    vitesseMax: "360",
+    acceleration: "2.5",
+    moteur: "V12 6.3L atmosphérique (optimisé)",
+    transmission: "Boîte séquentielle à 6 rapports",
+    poids: "1 300",
+    production: "5",
+    annee: "2021",
+    prix: "2 700 000",
+  },
+  funFacts: [
+    "Seulement 5 unités seront produites dans le monde.",
+    "Chaque exemplaire peut être entièrement personnalisé à la demande du client.",
+    "Son aéro active est inspirée des avions de chasse et de la F1.",
   ],
 }
 };

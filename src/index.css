@@ -5,3 +5,112 @@
 body {
   @apply select-none;
 }
+
+input[type="range"].range-thumb::-webkit-slider-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background: #0f0f0f;
+  border: 2px solid #e50914;
+  border-radius: 9999px;
+  cursor: pointer;
+  pointer-events: auto;
+  position: relative;
+  z-index: 50;
+}
+
+input[type="range"].range-thumb::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  background: #0f0f0f;
+  border: 2px solid #e50914;
+  border-radius: 9999px;
+  cursor: pointer;
+  pointer-events: auto;
+  position: relative;
+  z-index: 50;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: transparent;
+  pointer-events: none; /* désactive la barre sauf les thumbs */
+}
+
+input[type="range"].thumb-left,
+input[type="range"].thumb-right {
+  pointer-events: auto;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #e50914;
+  cursor: pointer;
+  border: 2px solid white;
+  margin-top: -6px;
+  position: relative;
+  z-index: 50;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #e50914;
+  cursor: pointer;
+  border: 2px solid white;
+  position: relative;
+  z-index: 50;
+}
+
+.loader {
+  border: 6px solid #1a1a1a;
+  border-top: 6px solid #e50914;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader-circle {
+  border: 6px solid #1a1a1a;
+  border-top: 6px solid #e50914;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-bar {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+.animate-loading-bar {
+  width: 100%;
+  animation: loading-bar 2s linear infinite;
+}
+
+@keyframes fade {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+.animate-fade {
+  animation: fade 1.5s infinite;
+}

@@ -110,7 +110,7 @@ const Home = () => {
                 "toyota.png",
                 "ford.png",
                 "koenigsegg.png",
-                "henessey.png",
+                "hennessey.png",
                 "apollo.png",
               ].map((logo, i) => (
                 <div

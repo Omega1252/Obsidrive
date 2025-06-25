@@ -7,6 +7,8 @@ import BrandPage from "./components/BrandPage";
 import brandsData from "./data/brandsData";
 import DynamicBrandRoute from "./pages/DynamicBrandRoute";
 import ModelPage from "./components/ModelPage";
+import Search from "./pages/Search";
+import "rc-slider/assets/index.css";
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/marques" element={<Marques />} />
-          <Route path="/search" element={<div className="text-white p-8">Recherche</div>} />
+          <Route path="/search" element={<Search />} />
 
           {/* Dynamique : une seule route pour toutes les marques */}
           <Route
