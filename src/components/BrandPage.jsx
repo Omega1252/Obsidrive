@@ -111,10 +111,20 @@ const BrandPage = ({
           </div>
           <a
             href={brandModelsLink}
-            className="inline-block mt-8 bg-[#e50914] hover:bg-[#ff2b3c] text-white font-semibold px-6 py-3 rounded-lg transition"
+            className="inline-block mt-8 text-white font-semibold px-6 py-3 rounded-lg transition"
+            style={{
+              backgroundColor: palette.accent || "#e50914",
+            }}
+            onMouseOver={(e) =>
+              (e.currentTarget.style.backgroundColor = palette.buttonHover || "#ff2b3c")
+            }
+            onMouseOut={(e) =>
+              (e.currentTarget.style.backgroundColor = palette.accent || "#e50914")
+            }
           >
             Voir tous les modèles
           </a>
+
         </section>
 
         {/* Fun Facts */}

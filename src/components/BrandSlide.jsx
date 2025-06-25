@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const BrandSlide = ({ name, tagline, background, logo, link }) => {
+const BrandSlide = ({ name, tagline, background, logo, link, palette }) => {
   return (
     <section
       className="h-screen bg-cover bg-center flex items-center px-6 md:px-20 text-white relative"
@@ -21,7 +21,14 @@ const BrandSlide = ({ name, tagline, background, logo, link }) => {
           </p>
           <a
             href={link}
-            className="bg-[#e50914] hover:bg-[#ff2b3c] text-white font-bold px-5 py-2.5 rounded-lg transition transform hover:scale-105 drop-shadow-md text-[0.95rem]"
+            className="text-white font-bold px-5 py-2.5 rounded-lg transition transform hover:scale-105 drop-shadow-md text-[0.95rem]"
+            style={{ backgroundColor: palette?.accent || "#e50914" }}
+            onMouseOver={(e) =>
+              (e.currentTarget.style.backgroundColor = palette?.buttonHover || "#ff2b3c")
+            }
+            onMouseOut={(e) =>
+              (e.currentTarget.style.backgroundColor = palette?.accent || "#e50914")
+            }
           >
             Découvrir la marque
           </a>
@@ -37,6 +44,8 @@ BrandSlide.propTypes = {
   background: PropTypes.string.isRequired,
   logo: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+  accent: PropTypes.string,
+  buttonHover: PropTypes.string,
 };
 
 export default BrandSlide;

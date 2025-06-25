@@ -12,6 +12,7 @@ const Marques = () => {
           background={brand.background}
           logo={brand.logo}
           link={`/marques/${key.toLowerCase()}`}
+          palette={brand.palette}
         />
       ))}
     </div>
