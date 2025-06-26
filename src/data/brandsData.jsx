@@ -18,6 +18,11 @@ const brandsData = {
       { label: "Chevaux max produits", value: "1 050 (SF90 XX Stradale)" },
       { label: "Usine", value: "Maranello, Italie" }
     ],
+    location: {
+      label: "Siège à Maranello, Italie",
+      lat: 44.5322,
+      lng: 10.8646
+    },
     models: [
       {
         name: "LaFerrari",
@@ -136,6 +141,11 @@ const brandsData = {
         { label: "Nombre de modèles V12", value: "+15" },
         { label: "Siège", value: "Sant'Agata Bolognese, Italie" },
     ],
+    location: {
+      label: "Siège à Sant'Agata Bolognese, Italie",
+      lat: 44.6652,
+      lng: 11.1544
+    },
     models: [
         {
         name: "Aventador",
@@ -247,6 +257,11 @@ Suivront la Chiron, la Bolide, et maintenant la Tourbillon.`,
     { label: "Vitesse max", value: "490 km/h (Chiron Super Sport 300+)" },
     { label: "Siège", value: "Molsheim, France" },
   ],
+  location: {
+    label: "Siège à Molsheim, France",
+    lat: 48.5412,
+    lng: 7.5065
+  },
   models: [
     {
       name: "Veyron",
@@ -333,6 +348,11 @@ Aujourd’hui, McLaren continue d’innover avec des modèles comme la P1 hybrid
     { label: "Vitesse max", value: "403 km/h (Speedtail)" },
     { label: "Siège", value: "Woking, Angleterre" },
   ],
+  location: {
+    label: "Siège à Woking, Royaume-Uni",
+    lat: 51.3347,
+    lng: -0.5352
+  },
   models: [
     {
       name: "McLaren F1",
@@ -408,6 +428,11 @@ L’entreprise a marqué l’histoire avec des séries mythiques comme la 3, la 
     { label: "Vitesse max", value: "305 km/h (M8 Competition)" },
     { label: "Siège", value: "Munich, Allemagne" },
   ],
+  location: {
+    label: "Siège à Munich, Allemagne",
+    lat: 48.1766,
+    lng: 11.5564
+  },
   models: [
     {
       name: "BMW M3",
@@ -459,6 +484,11 @@ Depuis les années 80, elle est à la pointe avec la transmission quattro, les m
     { label: "Vitesse max", value: "330 km/h (R8 V10 Plus)" },
     { label: "Siège", value: "Ingolstadt, Allemagne" },
   ],
+  location: {
+    label: "Siège à Ingolstadt, Allemagne",
+    lat: 48.7665,
+    lng: 11.4257,
+  },
   models: [
     {
       name: "Audi R8",
@@ -529,6 +559,11 @@ Depuis, la marque s’est illustrée autant en Formule 1 qu’auprès des chefs 
     { label: "Vitesse max", value: "352 km/h (AMG One)" },
     { label: "Siège", value: "Stuttgart, Allemagne" },
   ],
+  location: {
+    label: "Siège à Stuttgart, Allemagne",
+    lat: 48.7823,
+    lng: 9.1770,
+  },
   models: [
     {
       name: "AMG One",
@@ -610,6 +645,11 @@ Depuis, Pagani enchaîne les hypercars légendaires comme la Huayra ou l’Utopi
     { label: "Production annuelle", value: "Environ 40 voitures" },
     { label: "Lieu", value: "Modène, Italie" },
   ],
+  location: {
+    label: "Siège à San Cesario sul Panaro, Italie",
+    lat: 44.5864,
+    lng: 11.0422,
+  },
   models: [
     {
       name: "Zonda",
@@ -675,6 +715,11 @@ En quelques années, la marque devient la référence du tuning haut de gamme, a
     { label: "Vitesse max homologuée", value: "370+ km/h" },
     { label: "Siège", value: "Bottrop, Allemagne" },
   ],
+  location: {
+    label: "Siège à Bottrop, Allemagne",
+    lat: 51.5232,
+    lng: 6.9284,
+  },
   models: [
     {
       name: "Rocket 900",
@@ -736,6 +781,11 @@ Aujourd’hui, Rolls-Royce allie artisanat classique et technologies du futur.`,
     { label: "Production annuelle", value: "Environ 6 000 véhicules" },
     { label: "Siège", value: "Goodwood, Angleterre" },
   ],
+  location: {
+    label: "Siège à Goodwood, Royaume-Uni",
+    lat: 50.8611,
+    lng: -0.7595,
+  },
   models: [
     {
       name: "Phantom",
@@ -807,6 +857,11 @@ Aujourd’hui, elle se réinvente avec des modèles électriques comme la Taycan
     { label: "Victoires en endurance", value: "+700" },
     { label: "Siège", value: "Stuttgart, Allemagne" },
   ],
+  location: {
+    label: "Siège à Stuttgart, Allemagne",
+    lat: 48.8343,
+    lng: 9.1572,
+  },
   models: [
     {
       name: "911",
@@ -877,6 +932,11 @@ Elle s’est illustrée aussi bien sur circuit qu’au cinéma, notamment grâce
     { label: "Vitesse max record", value: "355 km/h" },
     { label: "Siège", value: "Gaydon, Royaume-Uni" },
   ],
+  location: {
+    label: "Siège à Gaydon, Royaume-Uni",
+    lat: 52.1636,
+    lng: -1.4805,
+  },
   models: [
     {
       name: "DB11",
@@ -937,6 +997,11 @@ La marque est célèbre pour ses innovations techniques et ses modèles légenda
     { label: "Ventes globales", value: "+200 millions de véhicules" },
     { label: "Siège", value: "Détroit, Michigan, USA" },
   ],
+  location: {
+    label: "Siège à Detroit, Michigan, États-Unis",
+    lat: 42.3296,
+    lng: -83.0398,
+  },
   models: [
     {
       name: "Corvette C8",
@@ -997,6 +1062,11 @@ Aujourd’hui, Dodge est célèbre pour ses V8 HEMI, ses looks agressifs et sa p
     { label: "Quarter Mile", value: "8.91 sec (Demon 170)" },
     { label: "Siège", value: "Auburn Hills, Michigan, USA" },
   ],
+  location: {
+    label: "Siège à Auburn Hills, Michigan, États-Unis",
+    lat: 42.6875,
+    lng: -83.2310,
+  },
   models: [
     {
       name: "Challenger SRT",
@@ -1057,6 +1127,11 @@ La Skyline GT-R, devenue une icône mondiale, incarne l'excellence japonaise dan
     { label: "Voitures électriques vendues", value: "+650 000 Leaf" },
     { label: "Siège", value: "Yokohama, Japon" },
   ],
+  location: {
+    label: "Siège à Yokohama, Japon",
+    lat: 35.4658,
+    lng: 139.6226,
+  },
   models: [
     {
       name: "GT-R R35",
@@ -1117,6 +1192,11 @@ tout en marquant les esprits avec des modèles iconiques comme la Celica ou la S
     { label: "Véhicules hybrides vendus", value: "+20 millions" },
     { label: "Siège", value: "Toyota City, Japon" },
   ],
+  location: {
+    label: "Siège à Toyota City, Japon",
+    lat: 35.0830,
+    lng: 137.1560,
+  },
   models: [
     {
       name: "Supra",
@@ -1169,6 +1249,11 @@ Ford a aussi marqué les esprits avec ses performances en endurance, notamment a
     { label: "Palmarès sportif", value: "Quadruple vainqueur du Mans" },
     { label: "Siège", value: "Dearborn, Michigan, USA" },
   ],
+  location: {
+    label: "Siège à Dearborn, Michigan, États-Unis",
+    lat: 42.3223,
+    lng: -83.1763,
+  },
   models: [
     {
       name: "Mustang",
@@ -1230,6 +1315,11 @@ Koenigsegg allie innovation radicale, matériaux de pointe, et records de vitess
     { label: "Record notable", value: "0-400-0 km/h en 31.49 sec" },
     { label: "Siège", value: "Ängelholm, Suède" },
   ],
+  location: {
+    label: "Siège à Ängelholm, Suède",
+    lat: 56.2950,
+    lng: 12.8540,
+  },
   models: [
     {
       name: "Jesko",
@@ -1280,7 +1370,7 @@ hennessey: {
   name: "Hennessey",
   tagline: "Built to Dominate.",
   background: "/img/cars/hennessey/hennessey.jpg",
-  logo: "/img/logos/henessey.png",
+  logo: "/img/logos/Hennessey3.jpg",
   about: `Hennessey Performance est une entreprise américaine spécialisée dans la fabrication et la préparation de voitures ultra-performantes. 
 Connu pour ses records de vitesse, Hennessey est synonyme de puissance brute.`,
   history: `Fondée en 1991 par John Hennessey, la marque a commencé en modifiant des supercars pour les rendre encore plus extrêmes. 
@@ -1291,6 +1381,11 @@ Elle est aujourd'hui connue mondialement pour ses modèles comme la Venom GT et 
     { label: "Objectif vitesse", value: "500+ km/h" },
     { label: "Siège", value: "Sealy, Texas, USA" },
   ],
+  location: {
+    label: "Siège à Sealy, Texas, États-Unis",
+    lat: 29.7805,
+    lng: -96.1577,
+  },
   models: [
     {
       name: "Venom F5",
@@ -1342,6 +1437,11 @@ L’ADN de la marque reste axé sur l’adrénaline pure.`,
     { label: "Production ultra-limitée", value: "10 exemplaires de l’IE" },
     { label: "Siège", value: "Denkendorf, Allemagne" },
   ],
+  location: {
+    label: "Siège à Denkendorf, Allemagne",
+    lat: 48.7333,
+    lng: 9.3333,
+  },
   models: [
     {
       name: "Intensa Emozione",

@@ -7,6 +7,16 @@ const Navbar = () => {
 
       <ul className="flex gap-8 items-center">
         <li>
+        <Link to="/comparateur" className="text-gray-300 hover:text-white transition-colors duration-300 font-medium">
+          Comparateur
+        </Link>
+      </li>
+        <li>
+          <Link to="/carte" className="text-gray-300 hover:text-white transition-colors duration-300 font-medium">
+            Carte
+          </Link>
+        </li>
+        <li>
           <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-300 font-medium">
             Accueil
           </Link>

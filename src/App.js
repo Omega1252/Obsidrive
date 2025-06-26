@@ -9,6 +9,9 @@ import DynamicBrandRoute from "./pages/DynamicBrandRoute";
 import ModelPage from "./components/ModelPage";
 import Search from "./pages/Search";
 import "rc-slider/assets/index.css";
+import "leaflet/dist/leaflet.css";
+import MapPage from "./pages/Map";
+import Compare from './pages/Compare';
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/marques" element={<Marques />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/carte" element={<MapPage />} />
+          <Route path="/comparateur" element={<Compare />} />
 
           {/* Dynamique : une seule route pour toutes les marques */}
           <Route

@@ -200,3 +200,8 @@ input[type="range"]::-moz-range-thumb {
   opacity: 0;
   animation: fadeZoomText 3s ease-in-out forwards;
 }
+
+.leaflet-top.leaflet-left {
+  top: 80px !important; /* décale en dessous de la navbar */
+  z-index: 30 !important;
+}
