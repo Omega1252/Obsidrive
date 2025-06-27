@@ -419,7 +419,7 @@ const modelsData = {
       "La Lamborghini Revuelto est la première hypercar hybride rechargeable de la marque. Elle marque une nouvelle ère en combinant un V12 atmosphérique avec trois moteurs électriques, offrant une puissance monstrueuse tout en respectant les nouvelles normes environnementales.",
     specs: {
       puissance: "1 015",
-      vitesseMax: "plus de 350",
+      vitesseMax: "350",
       acceleration: "2.5",
       moteur: "V12 6.5L atmosphérique + 3 moteurs électriques",
       transmission: "Boîte double embrayage à 8 rapports",
@@ -851,7 +851,7 @@ const modelsData = {
       "La Bugatti Tourbillon est l'hypercar hybride succédant à la Chiron, mêlant luxe, performances extrêmes et technologie électrifiée. Elle s’inspire de l’horlogerie haut de gamme, d’où son nom.",
     specs: {
       puissance: "1 800",
-      vitesseMax: "estimée à plus de 450",
+      vitesseMax: "450",
       acceleration: "2.0",
       moteur: "V16 atmosphérique + moteurs électriques",
       transmission: "Boîte robotisée à double embrayage – transmission intégrale",
