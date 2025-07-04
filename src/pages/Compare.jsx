@@ -190,53 +190,53 @@ const Compare = () => {
       );
     }
   };
-  const radarData = [
-  {
-    metric: "Puissance",
-    [selectedModel1.name]: Math.max(parseNumber(selectedModel1.specs.puissance) / 2000, 0.1),
-    [selectedModel2.name]: Math.max(parseNumber(selectedModel2.specs.puissance) / 2000, 0.1),
-    originalValues: {
-      [selectedModel1.name]: selectedModel1.specs.puissance,
-      [selectedModel2.name]: selectedModel2.specs.puissance,
+  const radarData = selectedModel1 && selectedModel2 ? [
+    {
+      metric: "Puissance",
+      [selectedModel1.name]: Math.max(parseNumber(selectedModel1.specs.puissance) / 2000, 0.1),
+      [selectedModel2.name]: Math.max(parseNumber(selectedModel2.specs.puissance) / 2000, 0.1),
+      originalValues: {
+        [selectedModel1.name]: selectedModel1.specs.puissance,
+        [selectedModel2.name]: selectedModel2.specs.puissance,
+      },
     },
-  },
-  {
-    metric: "Vitesse Max",
-    [selectedModel1.name]: Math.max(parseNumber(selectedModel1.specs.vitesseMax) / 500, 0.1),
-    [selectedModel2.name]: Math.max(parseNumber(selectedModel2.specs.vitesseMax) / 500, 0.1),
-    originalValues: {
-      [selectedModel1.name]: selectedModel1.specs.vitesseMax,
-      [selectedModel2.name]: selectedModel2.specs.vitesseMax,
+    {
+      metric: "Vitesse Max",
+      [selectedModel1.name]: Math.max(parseNumber(selectedModel1.specs.vitesseMax) / 500, 0.1),
+      [selectedModel2.name]: Math.max(parseNumber(selectedModel2.specs.vitesseMax) / 500, 0.1),
+      originalValues: {
+        [selectedModel1.name]: selectedModel1.specs.vitesseMax,
+        [selectedModel2.name]: selectedModel2.specs.vitesseMax,
+      },
     },
-  },
-  {
-    metric: "0-100",
-    [selectedModel1.name]: Math.max(1 - parseNumber(selectedModel1.specs.acceleration) / 10, 0.1),
-    [selectedModel2.name]: Math.max(1 - parseNumber(selectedModel2.specs.acceleration) / 10, 0.1),
-    originalValues: {
-      [selectedModel1.name]: selectedModel1.specs.acceleration,
-      [selectedModel2.name]: selectedModel2.specs.acceleration,
+    {
+      metric: "0-100",
+      [selectedModel1.name]: Math.max(1 - parseNumber(selectedModel1.specs.acceleration) / 10, 0.1),
+      [selectedModel2.name]: Math.max(1 - parseNumber(selectedModel2.specs.acceleration) / 10, 0.1),
+      originalValues: {
+        [selectedModel1.name]: selectedModel1.specs.acceleration,
+        [selectedModel2.name]: selectedModel2.specs.acceleration,
+      },
     },
-  },
-  {
-    metric: "Poids",
-    [selectedModel1.name]: Math.max(1 - parseNumber(selectedModel1.specs.poids) / 2500, 0.1),
-    [selectedModel2.name]: Math.max(1 - parseNumber(selectedModel2.specs.poids) / 2500, 0.1),
-    originalValues: {
-      [selectedModel1.name]: selectedModel1.specs.poids,
-      [selectedModel2.name]: selectedModel2.specs.poids,
+    {
+      metric: "Poids",
+      [selectedModel1.name]: Math.max(1 - parseNumber(selectedModel1.specs.poids) / 2500, 0.1),
+      [selectedModel2.name]: Math.max(1 - parseNumber(selectedModel2.specs.poids) / 2500, 0.1),
+      originalValues: {
+        [selectedModel1.name]: selectedModel1.specs.poids,
+        [selectedModel2.name]: selectedModel2.specs.poids,
+      },
     },
-  },
-  {
-    metric: "Prix",
-    [selectedModel1.name]: Math.max(1 - parseNumber(selectedModel1.specs.prix) / 4000000, 0.1),
-    [selectedModel2.name]: Math.max(1 - parseNumber(selectedModel2.specs.prix) / 4000000, 0.1),
-    originalValues: {
-      [selectedModel1.name]: selectedModel1.specs.prix,
-      [selectedModel2.name]: selectedModel2.specs.prix,
+    {
+      metric: "Prix",
+      [selectedModel1.name]: Math.max(1 - parseNumber(selectedModel1.specs.prix) / 4000000, 0.1),
+      [selectedModel2.name]: Math.max(1 - parseNumber(selectedModel2.specs.prix) / 4000000, 0.1),
+      originalValues: {
+        [selectedModel1.name]: selectedModel1.specs.prix,
+        [selectedModel2.name]: selectedModel2.specs.prix,
+      },
     },
-  },
-];
+  ] : [];
   return (
     <div className="min-h-screen bg-[#0f0f0f] text-white p-8 pt-28">
       <h1 className="text-4xl font-bold mb-12 text-center">Comparateur de Modèles</h1>
