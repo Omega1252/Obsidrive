@@ -68,7 +68,7 @@ const MapPage = () => {
   }, [selectedBrand]);
 
   return (
-    <div className="w-full h-screen relative z-auto">  // anciennement z-10
+    <div className="w-full h-screen relative z-auto">  {/* anciennement z-10 */}
       <BrandSelector
         brands={brandsWithLocation}
         selectedBrand={selectedBrand}

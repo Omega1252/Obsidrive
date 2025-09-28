@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import brandsData from "../data/brandsData";
 import BrandPage from "../components/BrandPage";
 import BrandAllModelsPage from "../components/BrandAllModelsPage";
@@ -9,20 +9,23 @@ const DynamicBrandRoute = () => {
   const { brandName, modelsPage } = useParams();
   const [loading, setLoading] = useState(true);
 
-  const brandKey = Object.keys(brandsData).find(
-    (key) => key.toLowerCase() === brandName?.toLowerCase()
-  );
+  const brandKey = useMemo(() => {
+    return Object.keys(brandsData).find(
+      (key) => key.toLowerCase() === brandName?.toLowerCase()
+    );
+  }, [brandName]);
 
-  const brand = brandsData[brandKey];
+  const brand = brandKey ? brandsData[brandKey] : null;
 
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, modelsPage ? 0 : 3000); // ← 3s car c’est la durée de l’animation
+    if (!modelsPage) {
+      const timer = setTimeout(() => setLoading(false), 3000); // ← 3s car c’est la durée de l’animation
+      return () => clearTimeout(timer);
+    }
 
-    return () => clearTimeout(timer);
+    setLoading(false);
   }, [brandName, modelsPage]);
 
   // ⚠️ si la marque n'existe pas
