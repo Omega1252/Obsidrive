@@ -13,35 +13,25 @@ import "leaflet/dist/leaflet.css";
 import MapPage from "./pages/Map";
 import Compare from './pages/Compare';
 
+const routes = [
+  { path: "/", element: <Home /> },
+  { path: "/marques", element: <Marques /> },
+  { path: "/search", element: <Search /> },
+  { path: "/carte", element: <MapPage /> },
+  { path: "/comparateur", element: <Compare /> },
+  { path: "/marques/:brandName/:modelsPage?", element: <DynamicBrandRoute /> },
+  { path: "/modele/:modelName", element: <ModelPage /> }
+];
+
 function App() {
   return (
     <Router>
       <div className="bg-[#0f0f0f] min-h-screen">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/marques" element={<Marques />} />
-          <Route path="/search" element={<Search />} />
-          <Route path="/carte" element={<MapPage />} />
-          <Route path="/comparateur" element={<Compare />} />
-
-          {/* Dynamique : une seule route pour toutes les marques */}
-          <Route
-            path="/marques/:brandName"
-            element={<DynamicBrandRoute />}
-          />
-
-          {/* Dynamique : une seule route pour les modèles de chaque marque */}
-          <Route
-            path="/marques/:brandName/:modelsPage"
-            element={<DynamicBrandRoute />}
-          />
-
-          {/* Dynamique : une route dédiée à chaque modèle de voiture */}
-          <Route
-            path="/modele/:modelName"
-            element={<ModelPage />}
-          />
+          {routes.map(({ path, element }) => (
+            <Route key={path} path={path} element={element} />
+          ))}
         </Routes>
         <Footer />
       </div>
