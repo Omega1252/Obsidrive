@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Obsidrive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Obsidrive, c’est un petit site web “vitrine/app” orienté voitures ainsi que marques : tu peux parcourir des modèles, comparer, et naviguer dans une interface propre et rapide, tu peux aussi en apprendre plus sur la marque, son historique, son usine, etc.  
+Projet front moderne basé sur **React** + **Tailwind CSS**, lancé avec un workflow **Node.js / NPM**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Stack
 
-### `npm start`
+- **React** (front)
+- **Tailwind CSS** (style)
+- **Node.js** + **NPM** (outils / scripts)
+- (souvent) **Vite** ou **Next.js** selon le setup du projet
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prérequis
 
-### `npm test`
+1. Avant de lancer le projet, installe :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A. Installer **Git** (pour pouvoir cloner le repo)  
+  
+Tu peux l'installer juste ici 👉​ ![git install](https://git-scm.com/install/)
 
-### `npm run build`
+B. Installer **Node.js (LTS recommandé)** + **NPM** (npm s'installe avec Node), obligatoire pour pouvoir voir l'appercu de la page web
+  
+Tu peux l'installer juste ici 👉​ ![git install](https://nodejs.org/en/download)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Clone du projet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Une fois les 2 installés, ouvre un terminal (appuies sur windows, puis écris "cmd" et éxécute "invité de commande") puis déplace toi dans le bureau en faisant "cd Desktop".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ensuite, clone le projet en faisant "git clone https://Github.com/Omega1252/Obsidrive.git"
 
-### `npm run eject`
+Et pour finir déplaces toi dans le dossier en faisant "cd Obsidrive"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Une fois l'installation finie, il faudra installer les dépendances.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pour ce faire, tapes juste "npm install"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Lancement de la page web
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Une fois l'installation terminée, il suffit de faire "npm run dev".
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Et voilà, tu as finis l'installation !
