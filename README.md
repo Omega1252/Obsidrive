@@ -20,11 +20,11 @@ Projet front moderne basé sur **React** + **Tailwind CSS**, lancé avec un work
 
 A. Installer **Git** (pour pouvoir cloner le repo)  
   
-Tu peux l'installer juste ici 👉​ ![git install](https://git-scm.com/install/)
+Tu peux l'installer juste ici 👉​ !(https://git-scm.com/install/)
 
 B. Installer **Node.js (LTS recommandé)** + **NPM** (npm s'installe avec Node), obligatoire pour pouvoir voir l'appercu de la page web
   
-Tu peux l'installer juste ici 👉​ ![git install](https://nodejs.org/en/download)
+Tu peux l'installer juste ici 👉​ !(https://nodejs.org/en/download)
 
 2. Clone du projet
 
